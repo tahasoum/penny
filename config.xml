@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.penny.moneytracker" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Penny</name>
+    <description>Personal money tracker — expenses, income, monthly limits.</description>
+    <author email="you@example.com" href="https://example.com">Penny</author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xff14302e" />
+    <preference name="StatusBarBackgroundColor" value="#14302e" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="AndroidWindowSplashScreenBackgroundColor" value="#14302e" />
+    <preference name="Orientation" value="portrait" />
+    <allow-navigation href="*" />
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="24" />
+        <preference name="AndroidPersistentFileLocation" value="Internal" />
+    </platform>
+</widget>

@@ -1,0 +1,10 @@
+{
+  "name": "penny-moneytracker",
+  "displayName": "Penny",
+  "version": "1.0.0",
+  "description": "Personal money tracker",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-android": "^13.0.0"
+  }
+}
